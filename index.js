@@ -1,8 +1,5 @@
 const { Discord, MessageEmbed, Intents, Client } = require("discord.js");
-
-const client = new Client({
-  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
-});
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 client.login("You bot TOKEN");
 
@@ -14,8 +11,8 @@ client.on("messageCreate", message => {
       let c = message.guild.channels.cache.find(x => x.name == args[0]);
       let Embed = new MessageEmbed()
         .setTitle("command: Discord Together")
-        .addField(`Usage:`, `djs!Game (voice channel name) (Game ID)`)
-        .addField(`Examples: `, `djs!Game Gamesvoice 755600276941176913`);
+        .addField(`Usage:`, `djs!Game (voice channel name) (Game ID)`, inline: true)
+        .addField(`Examples: `, `djs!Game Gamesvoice 755600276941176913`, inline: true);
       if (!c || c.type !== "GUILD_VOICE" || isNaN(args[1]))
         return message.channel.send({ embeds: [Embed] });
       c.createInvite({
