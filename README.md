@@ -70,3 +70,33 @@ I made this because I'm having "node-fetch" problems because of the discord.gg/1
 </details>
 
 ---
+
+<details>
+<summary>
+  Install bot
+</summary>
+
+<br >
+
+--- 
+    
+```sh-session
+npm install request
+```
+
+```sh-session
+npm install fs
+```
+
+```sh-session
+npm install discord.js
+```
+
+```sh-session
+npm install express
+```
+
+</div>
+</details>
+
+---
