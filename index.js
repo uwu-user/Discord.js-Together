@@ -1,5 +1,7 @@
 const { Discord, MessageEmbed, Intents, Client } = require("discord.js");
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]
+});
 
 client.login("You bot TOKEN");
 
@@ -23,7 +25,7 @@ client.on("messageCreate", message => {
         temporary: false
       }).then(content => message.channel.send({ content: content.url }));
     } catch (error) {
-      message.channel.send({ content: error.message });
+      message.channel.send({ content: error.message || "Error" });
     }
   }
 });
