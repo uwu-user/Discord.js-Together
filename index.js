@@ -1,3 +1,4 @@
+
 const { Discord, MessageEmbed, Intents, Client } = require("discord.js");
 const client = new Client({  
   intents: [ Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES 
@@ -6,6 +7,7 @@ const client = new Client({
 client.login("You bot TOKEN");
 
 // Discord Together
+
 client.on("messageCreate", message => {
   if (message.content.startsWith("djs!Game")) {
     try {
@@ -17,7 +19,7 @@ client.on("messageCreate", message => {
         .addField(`Examples: `, `djs!Game 755600276941176913`);
       if (!channel)
         return message.channel.send({ embeds: [Embed] });
-      c.createInvite({
+      channel.createInvite({
         maxUses: 0,
         maxAge: 86400,
         targetApplication: args[1], // game ID
@@ -25,7 +27,7 @@ client.on("messageCreate", message => {
         temporary: false
       }).then(content => message.channel.send({ content: content.url }));
     } catch (error) {
-      message.channel.send({ content: error.message || "Error" });
+      message.channel.send({ content: "Error!" });
     }
   }
 });
