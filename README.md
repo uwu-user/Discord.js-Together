@@ -8,19 +8,19 @@ if you need something » Unknown_#7004
 
 ---
 
-bot cmd:
+<details>
+<summary>
+   bot cmd:
+</summary>
+<br >
 
-djs!Game ( voice channel name ) ( Game ID )
+djs!Game ( Game ID )
 
 ---
 - If you need Games ID
 ---
 
-<details>
-<summary>
   Games ID
-</summary>
-<br >
 
 ---
 
@@ -46,9 +46,18 @@ djs!Game ( voice channel name ) ( Game ID )
 
 ---
 
-You can get whatever you want in index.js :0
+<details>
+<summary>
+   why?
+</summary>
+<br >
+  
+Most of the traditional methods did not work for me for some reason :3?
+  
+> I made this because I'm having "node-fetch" problems because of the discord.gg/10003 code? ,I made this as a replacement without problems
 
-I made this because I'm having "node-fetch" problems because of the discord.gg/10003 code? ,I made this as a replacement without problems
+  </div>
+</details>
 
 ---
 
