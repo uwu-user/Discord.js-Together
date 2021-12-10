@@ -13,8 +13,8 @@ client.on("messageCreate", message => {
       const channel = message.member.voice.channel;
       let Embed = new MessageEmbed()
         .setTitle("command: Discord Together")
-        .addField(`Usage:`, `djs!Game (voice channel name) (Game ID)`)
-        .addField(`Examples: `, `djs!Game Gamesvoice 755600276941176913`);
+        .addField(`Usage:`, `djs!Game (Game ID)`)
+        .addField(`Examples: `, `djs!Game 755600276941176913`);
       if (!channel)
         return message.channel.send({ embeds: [Embed] });
       c.createInvite({
