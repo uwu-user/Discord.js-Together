@@ -68,7 +68,7 @@ djs!Game ( Game ID )
 
 ---
 
-- This only works in Discord.js v13 only, does not work in Discord v12 
+- This only works in Discord.js v13.0.0, does not work in Discord v12 
 
 (reason: Added "targetApplication, targetType" in Discord.js v13 while it is not present in Discord.js v12)
 
