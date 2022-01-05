@@ -2,8 +2,6 @@
 
 ---
 
-❒ | This is just a simple javascript code (Discord.js)
-
 if you need something » Unknown_#7004
 
 ---
@@ -39,7 +37,7 @@ djs!Game ( Game ID )
 
 [note]:
 
-❒ Maybe some don't work, maybe everyone works, this is not my responsibility
+❒ Maybe some don't work, maybe everyone works, this is not my responsibility :3
 
 </div>
 </details>
@@ -48,13 +46,14 @@ djs!Game ( Game ID )
 
 <details>
 <summary>
-   why?
+   Why use this instead of any npm's?
 </summary>
 <br >
-  
-Most of the traditional methods did not work for me for some reason :3?
+  Most of the traditional methods did not work for me for some reason :3?
   
 > I made this because I'm having "node-fetch" problems because of the discord.gg/10003 code? ,I made this as a replacement without problems
+
++ I like to use Discord.js only
 
   </div>
 </details>
