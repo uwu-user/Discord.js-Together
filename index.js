@@ -17,8 +17,8 @@ client.on("messageCreate", message => {
         .setTitle("command: Discord Together")
         .addField(`Usage:`, `djs!Game (Game ID)`)
         .addField(`Examples: `, `djs!Game 755600276941176913`);
-      if (!channel)
-        return message.channel.send({ embeds: [Embed] });
+     if (!channel) return message.channel.sene({ content: "X - Join the Voice channel and try again"});
+     if (!args[0]) return message.channel.send({ embeds: [Embed] });
       channel.createInvite({
         maxUses: 0,
         maxAge: 86400,
