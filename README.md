@@ -68,8 +68,6 @@ djs!Game ( Game ID )
 
 ---
 
-- you don't need npms (You only need "Discord.js")
-
 - This only works in Discord.js v13 only, does not work in Discord v12 
 
 (reason: Added "targetApplication, targetType" in Discord.js v13 while it is not present in Discord.js v12)
