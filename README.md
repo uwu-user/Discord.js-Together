@@ -59,9 +59,8 @@ djs!Game ( Game ID )
 <br >
   Most of the traditional methods did not work for me for some reason :3?
   
-> I made this because I'm having "node-fetch" problems because of the discord.gg/10003 code? ,I made this as a replacement without problems
-
-+ I like to use Discord.js only
+> I'm using this because I'm having issues with "node-fetch" due to discord.gg/10003? I made this as a replacement without problems
++ I like to use Discord.js only :0 
 
   </div>
 </details>
@@ -70,16 +69,14 @@ djs!Game ( Game ID )
 
 <details>
 <summary>
-   Notes
+   Note*
 </summary>
 <br >
 
 ---
 
 - This only works in Discord.js v13.0.0, does not work in Discord v12 
-
-(reason: Added "targetApplication, targetType" in Discord.js v13 while it is not present in Discord.js v12)
-
+   
 </div>
 </details>
 
